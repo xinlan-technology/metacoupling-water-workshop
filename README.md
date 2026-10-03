@@ -11,15 +11,19 @@
 
 ---
 
-A single-page website for a small, invitation-only online workshop. It is plain HTML and CSS (no JavaScript, framework, or build step) and is served directly by GitHub Pages from the `main` branch.
+Six static pages for an invitation-only online workshop. HTML and CSS only, with system fonts and no JavaScript, dependencies, or build step.
 
 ## What's here
 
 | Path | Purpose |
 | --- | --- |
-| `index.html` | All page content and structure |
+| `index.html` | Workshop overview and motivation |
+| `topics.html` | Discussion topics |
+| `plan.html` | Workshop stages, timing, and coauthor invitation |
+| `reading.html` | Three background papers |
+| `people.html` | Lead, organizers, and participants |
+| `contact.html` | Workshop questions and expressions of interest |
 | `assets/css/site.css` | Layout, typography, and colors; design tokens are at the top |
-| `assets/fonts/` | Self-hosted Newsreader font and its license |
 | `assets/images/` | Browser tab icons |
 | `.nojekyll` | Tells GitHub Pages to serve the files as they are |
 
@@ -33,6 +37,5 @@ Then open <http://localhost:8000>.
 
 ## Notes
 
-- All asset paths are relative, so the site works under the `/metacoupling-water-workshop/` subpath.
-- The page asks search engines not to index it. To allow indexing, remove the `robots` meta tag from `index.html`.
-- Newsreader is by Production Type, used under the [SIL Open Font License 1.1](assets/fonts/OFL.txt).
+- Publish with GitHub Pages from the `main` branch and repository root.
+- Relative links support the `/metacoupling-water-workshop/` subpath. Every page includes `noindex, nofollow`.
