@@ -100,7 +100,7 @@ a:hover {
 
 .nav {
   display: grid;
-  grid-template-columns: repeat(6, max-content);
+  grid-template-columns: repeat(7, max-content);
   justify-content: center;
   justify-items: center;
   gap: var(--space-3);
@@ -108,6 +108,12 @@ a:hover {
   font-size: var(--small);
   line-height: 1.5;
   color: var(--muted);
+}
+
+.nav .site-name {
+  color: var(--ink);
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .nav a {
@@ -297,6 +303,10 @@ h2 {
   .nav {
     grid-template-columns: repeat(3, 1fr);
     gap: var(--space-1) var(--space-2);
+  }
+
+  .site-name {
+    grid-column: 1 / -1;
   }
 
   .rows > * {
