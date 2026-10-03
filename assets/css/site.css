@@ -103,7 +103,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: var(--space-3);
+  gap: calc(var(--space-3) / 2);
   max-width: calc(var(--content) + 2 * var(--gutter));
   margin-inline: auto;
   padding: var(--space-2) var(--gutter);
@@ -118,7 +118,8 @@ a:hover {
 .site-name {
   font-weight: 700;
   text-transform: uppercase;
-  text-decoration: none;
+  padding-inline-end: calc(var(--space-3) / 2);
+  border-inline-end: 1px solid var(--rule);
 }
 
 .nav {
