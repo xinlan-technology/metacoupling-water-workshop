@@ -100,10 +100,10 @@ a:hover {
 
 .header-inner {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
   flex-wrap: wrap;
-  gap: calc(var(--space-3) / 2);
+  gap: var(--space-3);
   max-width: calc(var(--content) + 2 * var(--gutter));
   margin-inline: auto;
   padding: var(--space-2) var(--gutter);
