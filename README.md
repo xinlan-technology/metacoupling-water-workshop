@@ -20,7 +20,7 @@ Six static pages for an invitation-only online workshop. HTML and CSS only, with
 | `index.html` | Workshop overview and motivation |
 | `topics.html` | Discussion topics |
 | `plan.html` | Workshop stages, timing, and coauthor invitation |
-| `reading.html` | Three background papers |
+| `reading.html` | Five background papers |
 | `people.html` | Lead, organizers, and participants |
 | `contact.html` | Workshop questions and expressions of interest |
 | `assets/css/site.css` | Layout, typography, and colors; design tokens are at the top |
