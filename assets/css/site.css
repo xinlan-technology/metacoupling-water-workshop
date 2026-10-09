@@ -29,7 +29,6 @@
 
   --gutter: clamp(1rem, 4vw, 2rem);
   --content: 54rem;
-  --measure: 32em;
   --pad: 1.5rem;
   --num: 2.25rem;
   --rail: 15.5rem;
@@ -252,7 +251,7 @@ main {
 .rows > * + * { border-top: 1px solid var(--rule); }
 
 .rows > * > p { grid-column: 2; }
-.rows p:not([class]) { max-width: var(--measure); margin-top: 0.5rem; }
+.rows p:not([class]) { margin-top: 0.5rem; }
 
 .topic, .ref { grid-template-columns: var(--num) minmax(0, 1fr); }
 
@@ -260,7 +259,6 @@ main {
 
 .ref-title, .person-name a {
   display: inline-block;
-  max-width: 34em;
   padding-right: 1.1em;
   color: var(--ink);
   text-decoration-line: none;
