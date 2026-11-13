@@ -5,7 +5,7 @@
 <h1 align="center">Hydrology Beyond the Watershed</h1>
 
 <p align="center">
-  <em>A Workshop on Metacoupling as a Lens for Hydrology</em><br>
+  <em>A Workshop on the Metacoupling Framework in Hydrology</em><br>
   <a href="https://xinlan-technology.github.io/metacoupling-water-workshop/"><strong>Visit the website →</strong></a>
 </p>
 
